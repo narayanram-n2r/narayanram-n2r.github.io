@@ -54,5 +54,5 @@ Securing remote access to your Linux system, particularly via SSH, is critical. 
 
 By implementing these fundamental security practices, you can significantly enhance the resilience of your Linux system against various cyber threats. Remember to stay vigilant and adapt your security measures as needed to stay ahead of potential adversaries.
 
-## Call to Action:
+## Call to Action
 What other Linux security topics would you like to learn about? Share your thoughts and questions in the comments below, and don't forget to subscribe for more in-depth guides and tutorials on cybersecurity and Linux administration.
