@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Narayan Ram Narayanan # the main title
 
-tagline: Graduate Teaching Assistant | Graduate Student @ UMD # it will display as the sub-title
+tagline: Graduate Teaching Assistant | Graduate Student @ UMD | Security Researcher # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   My portfolio and blog built with a minimal, responsive and feature-rich Jekyll theme for technical writing.
