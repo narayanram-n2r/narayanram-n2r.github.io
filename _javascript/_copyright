@@ -1,0 +1,1 @@
+n2r v<%= pkg.version %> | © 2024 <%= pkg.author %> | <%= pkg.license %> Licensed | <%= pkg.homepage %>
