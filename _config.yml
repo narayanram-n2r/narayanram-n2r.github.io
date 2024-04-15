@@ -16,14 +16,14 @@ timezone: America/New_York
 
 title: Narayan Ram Narayanan # the main title
 
-tagline: Graduate Teaching Assistant | Graduate Student @ UMD # it will display as the sub-title
+tagline: Graduate Teaching Assistant @ UMD | Security Researcher # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  My portfolio and blog built with a minimal, responsive and feature-rich Jekyll theme for technical writing.
+  My portfolio and blog built with a minimal, responsive and feature-rich Jekyll theme.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://n2r.github.io"
+url: "https://narayanram-n2r.github.io"
 
 github:
   username: narayanram-n2r # change to your github username
@@ -44,16 +44,34 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
-google_site_verification: # fill in to your verification string
+# Site Verification Settings
+webmaster_verifications:
+  google: # fill in your Google verification code
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: # fill in your Google Analytics ID
+# Web Analytics Settings
+analytics:
+  google:
+    id: # fill in your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
 
-goatcounter:
-  id: # fill in your Goatcounter ID
+# Pageviews settings
+pageviews:
+  provider: # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -73,7 +91,7 @@ theme_mode: # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: 'assets/img/profile.png'
@@ -86,14 +104,14 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  provider: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: narayanram-n2r/narayanram-n2r.github.io # <gh-username>/<repo>
+    issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: narayanram-n2r/narayanram-n2r.github.io # <gh-username>/<repo>
@@ -101,6 +119,7 @@ comments:
     category: Post-Discussion
     category_id: DIC_kwDOLkSPIM4CeqWp
     mapping: pathname # optional, default to 'pathname'
+    strict: 1 # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
     lang: en # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
