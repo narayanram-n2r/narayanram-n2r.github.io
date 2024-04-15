@@ -16,7 +16,9 @@ timezone: America/New_York
 
 title: Narayan Ram Narayanan # the main title
 
+
 tagline: Security Researcher | Graduate Teaching Assistant @ UMD # it will display as the sub-title
+
 
 description: >- # used by seo meta and the atom feed
   My portfolio and blog built with a minimal, responsive and feature-rich Jekyll theme.
@@ -25,11 +27,15 @@ description: >- # used by seo meta and the atom feed
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://narayanram-n2r.github.io"
 
+
 github:
   username: narayanram-n2r # change to your github username
 
 twitter:
   username: _n2r_ # change to your twitter username
+
+linkedin:
+  username: n2r
 
 social:
   # Change to your full name.
