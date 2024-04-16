@@ -3,20 +3,42 @@ layout: cv
 icon: fas fa fa-file-text
 order: 1
 ---
-<center><h2>NARAYAN RAM NARAYANAN</h2></center>
+<div style="display: flex; justify-content: space-between;">
+  <div style="font-size: 27px;">
+    <b>Narayan Ram Narayanan</b>
+  </div>
+</div>
+
+
+<div style="display: flex; justify-content: space-between;">
+  <div style="font-size: 14px;">
+    <i>Security Researcher | Graduate Teaching Assistant</i>
+  </div>
+  <div style="font-size: 14px;">
+    <a href="/assets/narayan_ram_narayanan_resume.pdf" style="text-decoration: none; background-color: transparent; margin-left: auto;" target="_blank">
+    <i>Download my Resume</i></a>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <div style="font-size: 8px;"> </div>
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <div style="font-size: 14px;">Actively seeking full-time opportunities within the cybersecurity field.</div>
+</div>
+
 ---
 
-- With a proven track record in Cybersecurity, I bring a wealth of expertise in Security architecture, DevSecOps, and incident response. Currently pursuing a Master's degree in Cyber Security, I specialize in assessing information security controls, conducting comprehensive risk assessments, and adeptly addressing vulnerabilities within cloud and on-premises infrastructures.
+- During my tenure as a Graduate Teaching Assistant at the University of Maryland, I played a significant role in teaching courses focused on Secure Operating Systems and Applied Cryptography. In this capacity, I facilitated discussions centered on various aspects of OS security, vulnerabilities, and cryptographic principles, thereby enhancing students' understanding and analytical skills.
 
-- Proficient in various programming languages and scripting for automation, I am committed to elevating information security standards and safeguarding critical assets. My dedication extends to actively engaging with the cybersecurity community, where I attend conferences focused on information security and cryptography to remain updated with the latest industry trends and advancements.
-
-- I am particularly passionate about implementing the 'purple team' approach, fostering collaborative efforts between red and blue teams to reinforce security measures effectively. With a keen eye for detail and a proactive mindset, I strive to contribute to the continuous improvement of cybersecurity practices and resilience.
+- Prior to my academic role, I worked as a Security Engineer (holding positions such as Security Champion and DevSecOps Specialist) at Oracle Health (Cerner), where I conducted thorough security audits and spearheaded remediation efforts to address vulnerabilities within the US Veteran Affairs domain.
 
 ---
 
 ## EXPERIENCE
 
-**MAGE, University of Maryland**
+[**MAGE, University of Maryland**](https://www.umd.edu/){:target="_blank"}
   - **Graduate Teaching Assistant - Secure Operating Systems** : Jan 2024 - May 2024
     - Instructed a graduate-level course on Secure Operating Systems, emphasizing principles, techniques, and best practices for securing operating systems within a Linux environment.
     - Provided hands-on guidance to students for implementing security measures in operating systems, utilizing programming languages like C, Python, and Bash scripting.
@@ -31,24 +53,25 @@ order: 1
     - Evaluated student papers and provided constructive feedback to enhance academic growth and analytical skills.
     - Demonstrated the ability to bridge theory with practical implementation, emphasizing the importance of controls reviews and risk assessments.
 
-**Cerner Healthcare Solutions**
+[**Oracle Health (Cerner)**](https://www.cerner.com/){:target="_blank"}
   - **Software Engineer (Security Champion \| DevSecOps)** : Mar 2020 - Jul 2022
     - Led comprehensive security audits, encompassing Static Code Analysis (SCA), Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), and Vulnerability Assessment and Penetration Testing (VAPT). Demonstrated proficiency in evaluating information security controls as a security champion.
     - Identified and addressed over 10 critical, 30 high, and approximately 100 medium and low-level Common Vulnerabilities and Exposures (CVEs) within the United States Veteran Affairs domain, documenting findings for remediation.
     - Developed and implemented a suite of CI/CD pipeline-integrated tools to streamline vulnerability scanning and deployment checks, resulting in a significant reduction in production environment vulnerabilities.
     - Organized and facilitated workshops on secure coding practices, engaging more than 50 developers to promote best practices and enhance risk reduction efforts.
 
-**Oracle Cerner Corporation**
   - **Software Engineer Intern** : Jan 2020 - Mar 2020
     - Developed an innovative learning platform designed to encourage continuous learning for a diverse group of 50+ developers. This interactive problem-solving platform seamlessly integrated with an independent backend judgment system for the automatic evaluation of Java and SQL code.
 
-**Zoho Corporation**
+[**Zoho Corporation**](https://www.zoho.com/){:target="_blank"}
   - **Software Engineering Intern** : Apr 2019 - Jul 2019
     - Played a pivotal role in the development of a Patch Updater for servers, employing reverse engineering techniques to optimize runtime binaries within the Java Virtual Machine (JVM). This innovative approach resulted in a significant reduction in testing time, thereby enhancing efficiency and resilience.
 
-**iPath Technologies**
+[**iPath Technologies**](https://www.ipathtech.com/){:target="_blank"}
   - **Software Engineering Intern** : Apr 2018 - Jun 2018
     - Designed and implemented a cross-platform application using the IONIC framework to optimize the Continuous Integration/Continuous Deployment (CI/CD) process, resulting in a significant reduction in deployment time.
+
+Delivered Java Full Stack Development training for corporates like GE, Wipro & Deloitte as a freelance trainer - *Aug 2022*
 
 ---
 
@@ -103,3 +126,8 @@ order: 1
 
 ## CONFERENCES & MEETUPS
 
+- [NIST Workshop on Block Cipher Modes of Operation](https://www.nist.gov/news-events/events/2023/10/third-nist-workshop-block-cipher-modes-operation-2023) @ *NCCoE - Oct 2023*
+- [PQCrypto 2023](https://pqcrypto2023.umiacs.io/) @ *UMD - Aug 2023*
+- [OWASP Global Appsec](https://owasp.org/events/) @ *San Francisco & Washington D.C - Sep 2022 & Nov 2023*
+- [BSides NoVA](https://www.bsidesnova.org/) @ *Virginia - Sep 2023*
+- Volunteered in 10+ security meetups, conferences & CTFs, while staying up to date on current issues and trends through TL;DR.

@@ -1,6 +1,6 @@
 ---
 icon: fas fa-address-book
-order: 6
+order: 7
 ---
 
 ### 👋 Let's kickstart a convo! 
@@ -17,7 +17,8 @@ or hit me up via <i class="fas fa-envelope"></i> at [narayanramn2r@gmail.com](ma
 For a touch of secrecy, here's my PGP public key:
 
 Fingerprint:
-> E608 707F FDD4 7BDB 510A F4F5 FF30 D36D DC00 464C
+> E608 707F FDD4 7BDB 510A F4F5 FF30 D36D DC00 464Cs
+{: .prompt-info }
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

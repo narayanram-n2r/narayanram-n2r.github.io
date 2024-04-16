@@ -1,25 +1,26 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
 ```
-$ ./fetch_user --minimal > curr_user.log
+$ ./fetch_user --minimal > curr_user
+$ cat curr_user
 __________________/\\\\\\\\\___________________
  ________________/\\\///////\\\_________________
   _______________\///______\//\\\________________
    __/\\/\\\\\\_____________/\\\/____/\\/\\\\\\\__     First Name : Nararyan Ram Narayanan
-    _\/\\\////\\\_________/\\\//_____\/\\\/////\\\_    Location   : College Park, MD
+    _\/\\\////\\\_________/\\\//_____\/\\\/////\\\_    Location   : Washington, D.C
      _\/\\\__\//\\\_____/\\\//________\/\\\___\///__   Email      : narayanramn2r@gmail.com
       _\/\\\___\/\\\___/\\\/___________\/\\\_________
        _\/\\\___\/\\\__/\\\\\\\\\\\\\\\_\/\\\_________
         _\///____\///__\///////////////__\///__________
 ```
-{: file='/curr_user.log'}
+{: file='/curr_user'}
 
 # 👋 Hello there! I'm Narayan Ram Naryanan - aka N2R 
 
