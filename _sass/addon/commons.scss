@@ -514,6 +514,13 @@ main {
   display: inline-flex;
 }
 
+.shimmer::before {
+  content: none !important;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+
+
 .shimmer {
   overflow: hidden;
   position: relative;
