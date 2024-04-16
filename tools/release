@@ -22,7 +22,7 @@ DEFAULT_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remot
 
 PROD_BRANCH="production"
 
-GEM_SPEC="jekyll-theme-chirpy.gemspec"
+GEM_SPEC="portfolio-theme.gemspec"
 NODE_CONFIG="package.json"
 CHANGE_LOG="docs/CHANGELOG.md"
 
