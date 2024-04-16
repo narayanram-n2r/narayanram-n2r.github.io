@@ -42,8 +42,5 @@ jobs:
       - name: Build Assets
         run: npm i && npm run build
 
-      - name: init Site
-        run: bash tools/init
-
       - name: Test Site
         run: bash tools/test
