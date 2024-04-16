@@ -40,7 +40,28 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+<div class="container">
+  <div class="text-center" >
+    <img src="{{ site.home_img | relative_url }}" style="width: 55% !important;" alt="wave">
+  </div>
+  
+  <div class="content">
+    <h1>Welcome to n2r's Abode!</h1>
+    <p>
+      Hey there! Step into my online home, where I delve into my interests. 
+      My blog is a personal journey, where I explore various topics and share my thoughts and insights.
+    </p>
+    <h2>Navigate My Abode</h2>
+    <ul>
+      <li>📚 <strong><a href="/cv">Explore my Career:</a></strong> Take a glimpse into my professional journey.</li>
+      <li>👨‍💼 <strong><a href="/about">Meet the Mind:</a></strong> Get to know the person behind the digital defenses.</li>
+      <li>📞 <strong><a href="/contact">Let's Contact:</a></strong> Ready to reach out or collaborate? Feel free to get in touch!</li>
+    </ul>    
+  </div>
+</div>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
+  <h4 class="text-center">📝 BLOG</h4>
   {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
